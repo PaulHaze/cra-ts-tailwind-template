@@ -1,7 +1,7 @@
 function App() {
   return (
-    <div>
-      <h1>Bare Bones CRA Template</h1>
+    <div className="p-5">
+      <h1>Bare Bones CRA + Tailwind Template</h1>
     </div>
   );
 }
