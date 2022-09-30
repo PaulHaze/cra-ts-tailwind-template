@@ -1,9 +1,9 @@
-import * as React from 'react';
+import { Counter } from 'features';
 
 export function Home() {
   return (
     <div>
-      <p>Home Placeholder</p>
+      <Counter />
     </div>
   );
 }

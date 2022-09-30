@@ -20,6 +20,7 @@ module.exports = {
   globals: {
     React: 'readonly',
   },
+  ignorePatterns: ['.eslintrc.js'],
   settings: {
     'import/parsers': {
       '@typescript-eslint/parser': ['.ts', '.tsx'],
