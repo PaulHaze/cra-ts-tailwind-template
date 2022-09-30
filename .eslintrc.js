@@ -62,6 +62,10 @@ module.exports = {
       },
     ],
     'jsx-a11y/href-no-hash': 'off',
+    'no-param-reassign': [
+      'error',
+      { props: true, ignorePropertyModificationsFor: ['state'] },
+    ],
     'react/react-in-jsx-scope': 'off',
     'react/jsx-props-no-spreading': 'off',
     'react/require-default-props': 'off',

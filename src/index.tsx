@@ -1,5 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+
+//* REDUX IMPORTS
+// Uncomment to use within the app
+import { store } from 'redux/store';
+import { Provider } from 'react-redux';
+
 import 'styles/main.scss';
 import App from './App';
 // import reportWebVitals from './reportWebVitals';
@@ -9,7 +15,9 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <App />
+    </Provider>
   </React.StrictMode>,
 );
 
