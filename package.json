@@ -1,6 +1,6 @@
 {
   "name": "cra-ts-tailwind-template",
-  "version": "0.1.0",
+  "packageManager": "pnpm@7.13.0",
   "private": true,
   "scripts": {
     "start": "ESLINT_NO_DEV_ERRORS='true' react-scripts start",
